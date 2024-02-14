@@ -1,0 +1,78 @@
+name: tofan
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.1
+  cupertino_icons: ^1.0.2
+
+  #state managment
+  flutter_bloc: ^8.1.3
+
+  #store data
+  shared_preferences: ^2.2.2
+
+  # annotation
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+
+  # Networking
+  dio: ^5.3.3
+  retrofit: ^4.0.3
+  retrofit_generator: ^8.0.4
+  pretty_dio_logger: ^1.3.1
+  flutter_offline: ^3.0.1
+  internet_connection_checker_plus: ^2.1.0
+  #  logger: ^2.0.2+1
+  flutter_screenutil: ^5.9.0
+  cached_network_image: ^3.3.1
+  flutter_cached_pdfview: ^0.4.2
+  flutter_widget_from_html: ^0.14.11
+  lottie: ^2.4.0
+  carousel_slider: ^4.2.1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  freezed: ^2.4.5
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.7
+  icons_launcher: ^2.1.7
+
+
+flutter:
+
+  uses-material-design: true
+
+
+
+  assets:
+    - assets/
+    - assets/start2.json
+    - assets/font/ReadexPro.ttf
+  #   - images/a_dot_ham.jpeg
+  fonts:
+    - family: ReadexPro
+      fonts:
+        - asset: assets/font/ReadexPro.ttf
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
